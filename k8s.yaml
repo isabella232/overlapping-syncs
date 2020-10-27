@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: specific-above
+spec:
+  containers:
+    - name: specific-above
+      image: specific-above
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: general-above
+spec:
+  containers:
+    - name: general-above
+      image: general-above
